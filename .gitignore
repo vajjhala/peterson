@@ -1,0 +1,5 @@
+# Ignore everything
+./report
+
+# But not these files
+!./report/report.pdf
