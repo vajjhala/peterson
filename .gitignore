@@ -1,5 +1,6 @@
 # Ignore everything
-./report
+report/*
+.gitignore
 
 # But not these files
-!./report/report.pdf
+!report/report.pdf
