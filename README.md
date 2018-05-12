@@ -1,4 +1,4 @@
-## Formal Verification of Peterson's ALgorithm
+## Formal Verification of Peterson's Algorithm
 
 #### The Problem
 ===========
@@ -17,17 +17,6 @@ The properties we need to check for are:
 2.  **Liveness**: Every requesting process must eventually get access to
     the critical section.
 
-#### Approach 
-========
-
-I will start with the primitive algorithm for mutual exclusion, which is
-the the Safe Sluice algorithm, show how it fails to address deadlock,
-then extract the Petersonâs algorithm from the *safety* condition. The
-algorithm I will be arguing about will be a variant of the Petersonâs
-algorithm that synchronises only two components, but the general version
-extends this to n components. At the end of the report I have presented
-the pseudo-code for the **N**-component variant without proof. It is
-this version that I have implemented.
 
 ###### More details in report/report.pdf
 
