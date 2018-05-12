@@ -1,0 +1,95 @@
+Started Peterson for:  S
+Non-Critical: S
+*********** critical: S *************
+shared-variable:    100   
+flags: {'P': False, 'Q': False}
+disjunct: S
+=====================================
+
+Started Peterson for:  P
+Started Peterson for:  Q
+Non-Critical: S
+Non-Critical: Q
+*********** critical: S *************
+shared-variable:    200   
+flags: {'P': False, 'Q': False}
+disjunct: S
+=====================================
+Non-Critical: P
+
+*********** critical: Q *************
+shared-variable:    150   
+flags: {'S': True, 'P': True}
+disjunct: P
+=====================================
+
+Non-Critical: S
+*********** critical: P *************
+shared-variable:    100   
+flags: {'S': True, 'Q': True}
+disjunct: S
+=====================================
+
+Non-Critical: P
+Non-Critical: Q
+*********** critical: S *************
+shared-variable:    200   
+flags: {'P': False, 'Q': False}
+disjunct: S
+=====================================
+
+*********** critical: P *************
+shared-variable:    150   
+flags: {'S': True, 'Q': True}
+disjunct: Q
+=====================================
+
+Non-Critical: S
+Non-Critical: P
+*********** critical: Q *************
+shared-variable:    100   
+flags: {'S': True, 'P': False}
+disjunct: S
+=====================================
+*********** critical: S *************
+shared-variable:    200   
+flags: {'P': True, 'Q': True}
+disjunct: P
+=====================================
+
+
+Non-Critical: S
+Non-Critical: Q
+*********** critical: P *************
+shared-variable:    150   
+flags: {'S': False, 'Q': False}
+disjunct: P
+=====================================
+
+*********** critical: S *************
+shared-variable:    250   
+flags: {'P': True, 'Q': True}
+disjunct: Q
+=====================================
+Non-Critical: P
+
+Non-Critical: S
+*********** critical: Q *************
+shared-variable:    200   
+flags: {'S': True, 'P': True}
+disjunct: S
+=====================================
+
+*********** critical: P *************
+shared-variable:    150   
+flags: {'S': True, 'Q': True}
+disjunct: S
+=====================================
+
+Non-Critical: Q
+Non-Critical: P
+*********** critical: S *************
+shared-variable:    250   
+flags: {'P': False, 'Q': True}
+disjunct: Q
+=====================================
