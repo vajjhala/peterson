@@ -20,4 +20,3 @@ The properties we need to check for are:
 
 ###### More details in report/report.pdf
 
-
