@@ -6,17 +6,17 @@ from threading import Thread
 from petersons import Component
 
 '''
-In this test case, we have three components, 
-each trying to get access to a critical section to 
+In this test case, we have three components,
+each trying to get access to a critical section to
 change the value of a variable.
 
-Safety and Liveness are guaranteed but no 
+Safety and Liveness are guaranteed but no
 guarantee is made about the order of access.
 '''
 
 
 class ChangeVariable(Component):
-    
+
     critical_value = 0
 
     def __init__(self, name, funct):

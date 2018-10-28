@@ -1,10 +1,10 @@
 from abc import ABCMeta, abstractmethod
 
 '''
-An abstract class for a Component 
+An abstract class for a Component
 participating to get access the critical section.
 
-We specify the methods each 
+We specify the methods each
 sub class needs to implement.
 '''
 
